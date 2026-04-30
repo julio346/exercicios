@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inscrição Enem</title>
+</head>
+<body>
+    <h1>Formulario Inscrição Enem</h1>
+    <h2>Dados Pessoais</h2>
+    
+    <p>
+     <label for="cpf">CPF:</label><br>
+     <input type="number" id="cpf" name="cpf" required>
+    </p>
+
+    <p>
+      <label for="nome">Nome Completo:</label><br>
+      <input type="text" id="nome" name="nome" required>
+    </p>
+
+    <p>
+        <label for="nascimento">Data de nascimento:</label><br>
+        <input type="date" id="nascimento" name="nascimento" required>
+    </p>
+
+    <p>
+        <label for="mae">Nome da mãe:</label><br>
+        <input type="text" id="mae" name="mae" required>
+    </p>
+
+    <p>Gênero:</p>
+    <p>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label>
+   </p>
+
+    <label for="raca-select">Escolha sua cor ou raça:</label><br>
+    <select name="raca" id="raca-select" required>
+     <option value="">Selecione</option>
+     <option value="branca">Branca</option>
+     <option value="preta">Preta</option>
+     <option value="parda">Parda</option>
+     <option value="amarela">Amarela</option>
+     <option value="indigena">Indígena</option>
+    </select>
+     
+    <p>
+        <label for="indentidade">N.da indentidade:</label><br>
+        <input type="number" id="indentidade" name="indentidade" required>
+    </p>
+
+    <p>
+        <label for="expedidor">Orgão expedidor:</label><br>
+        <input type="number" id="expedidor" name="expedidor" required>
+    </p>
+
+    <label for="estado-civil">Estado civil:</label><br>
+    <select name="civil" id="estado-civil" required>
+        <option value="">Selecione</option>
+        <option value="solteiro">solteiro(a)</option>
+        <option value="Casado">Casado</option>
+    </select>
+
+    <p></p>
+    
+    <label for="nacionalidade">Nacionalidade:</label><br>
+    <select name="nacionalidade" id="nacionalidade" required>
+        <option value="brasil">Brasileiro(a)</option>
+        <option value="estrangeiro">Estrangeiro(a)</option>
+    </select>
+
+    <h2>Endereço</h2>
+
+    <p>
+       <label for="cpf">CPF:</label><br>
+       <input type="number" id="cpf" name="cpf" required>
+    </p>
+
+    <p>
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco" required>
+    </p>
+
+    <p>
+        <label for="numero">Numero:</label><br>
+        <input type="number" id="numero" name="numero" required>
+    </p>
+
+    <p>
+        <label for="complemento">Complemento:</label><br>
+        <input type="text" id="complemento" name="complemento">
+    </p>
+
+    
+    <p>
+        <label for="bairro">Bairro:</label><br>
+        <input type="text" id="bairro" name="bairro" required>
+    </p>
+
+    <p>
+        <label for="municipio">Municipio:</label><br>
+        <input type="text" id="municipio" name="municipio" required>
+    </p>
+
+    <button type="button">Sair</button>
+    <button type="button">Proximo</button>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
